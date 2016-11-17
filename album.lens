@@ -27,7 +27,7 @@
 
 <div class="top">
 
-	<h4>{{ album.title }}</h4>
+	<h2>{{ album.title }}</h2>
 
 	<koken:if true="settings.show_album_dl">
 		<koken:album_download>
@@ -35,7 +35,7 @@
 		</koken:album_download>
 	</koken:if>
 
-	{{ album.description paragraphs="true" }}
+	<p>{{ album.description paragraphs="true" }}</p>
 
 	<koken:if true="settings.show_album_meta">
 
@@ -69,20 +69,6 @@
 				</p>
 			</koken:tags>
 		</span>
-
-	</koken:if>
-
-	<koken:if true="settings.social_bttns_show_one">
-
-		<koken:if true="album.public">
-
-			<div class="social-album">
-
-				<koken:include file="inc/share-links.html" />
-
-			</div>
-
-		</koken:if>
 
 	</koken:if>
 
@@ -133,7 +119,7 @@
 			</span>
 
 			<span class="img-data">
-
+				<koken:time />
 				<span class="img-caption">
 					<koken:if true="settings.show_title">
 						<h4><koken:link title="View {{ content.title }}">{{ content.title }}</koken:link></h4>
@@ -178,6 +164,20 @@
 	</ul>
 
 </div>
+
+<koken:if true="settings.social_bttns_show_one">
+
+	<koken:if true="album.public">
+
+		<div class="social-album">
+
+			<koken:include file="inc/share-links.html" />
+
+		</div>
+
+	</koken:if>
+
+</koken:if>
 
 <koken:else>
 

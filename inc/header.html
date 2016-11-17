@@ -35,7 +35,12 @@
 		}(document, 'script', 'facebook-jssdk'));</script>
 	</koken:if>
 
-	<header class="main">
+	<!-- <koken:if true="settings.fixed_header"> -->
+		<!-- <h1>YEAAAAA</h1> -->
+		<!-- <header class="main" style="position: fixed;"> -->
+	<!-- <koken:else> -->
+		<header class="main">
+	<!-- </koken:if> -->
 
 		<div class="inner">
 
@@ -53,6 +58,10 @@
 			</koken:if>
 
 		</div>
+
+		<nav>
+			<koken:navigation />
+		</nav>
 
 	</header>
 

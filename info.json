@@ -67,6 +67,11 @@
     "Typography": {
       "icon":"type",
       "settings": {
+				"fixed_header": {
+					"label": "Fixed Header At Top",
+					"type": "boolean",
+					"value": true
+				},
         "font": {
           "label":"Typeface",
           "type":"select",
@@ -75,6 +80,7 @@
             { "label": "Classic", "value": "classic" },
             { "label": "Fashion", "value": "fashion" },
             { "label": "Sweet", "value": "sweet" },
+            { "label": "Abril and Raleway", "value": "abril-raleway" },
             { "label": "Tabloid", "value": "tabloid" }
           ],
           "value": "default",
@@ -288,15 +294,6 @@
 		"Layout": {
 			"icon": "layout",
 			"settings": {
-				"header_padding": {
-					"label": "Header padding",
-					"type": "slider",
-					"min": 0,
-					"max": 50,
-					"step": 1,
-					"value": 15,
-					"suffix": "px"
-				},
 				"footer_padding": {
 					"label": "Footer padding",
 					"type": "slider",
