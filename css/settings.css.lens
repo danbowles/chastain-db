@@ -342,16 +342,18 @@ header.main .inner {
 
 header.main .k-nav-list {
   border-top: 3px double;
+  border-bottom: 3px double;
   padding: 15px;
 }
 
 header.main h1 {
-    font-size: 26px;
+    font-size: 29px;
     letter-spacing: [$site_title_spacing]px;
     text-transform: uppercase;
+    margin-bottom: .5em;
 }
 .site_tagline {
-    /*font-size: .85em;*/
+    font-size: 1.1em;
     letter-spacing: 2px;
     /*font-weight: 300*/
 }

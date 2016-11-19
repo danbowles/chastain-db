@@ -1,12 +1,11 @@
 {
 	"name": "Chastain-Danbowles",
-	"version": "1.6.0",
+	"version": "1.0.0",
 	"description": "Center-aligned theme designed for showcasing photo albums and design projects. Collections are displayed on the home page as triptychs or as single images. Essay and page support included for blogging or personal content pages. Solid choice for graphic design portfolios and photography collections.",
 	"demo": "http://demo.koken.me/#chastain",
 	"documentation": "https://store.koken.me/themes/chastain",
 	"author": {
-		"name": "Koken",
-		"link": "https://store.koken.me/authors/koken"
+		"name": "Dan Bowles"
 	},
 	"koken_version_required": "0.22.0",
 
@@ -16,7 +15,7 @@
 		"white": {
 			"label": "White",
 			"variables": {
-				"background_color": "#efefef",
+				"background_color": "#fff",
 				"header_color": "#fff",
 				"footer_color": "#fff",
 				"title_color": "#000",
@@ -28,38 +27,6 @@
 				"firefox_alias": "auto",
 				"button_color": "#fff"
 			}
-		},
-		"black": {
-			"label": "Black",
-			"variables": {
-				"background_color": "#000",
-				"header_color": "#111",
-				"footer_color": "#111",
-				"title_color": "#fff",
-				"font_color": "#818181",
-				"meta_color": "#999",
-				"link_color": "#fff",
-				"link_hover_color": "#fff",
-				"nav_current_color": "#fff",
-				"firefox_alias": "grayscale",
-				"button_color": "#111"
-			}
-		},
-		"gray": {
-			"label": "Gray",
-			"variables": {
-				"background_color": "#454545",
-				"header_color": "#4d4d4d",
-				"footer_color": "#4d4d4d",
-				"title_color": "#eee",
-				"font_color": "#9e9e9e",
-				"meta_color": "#ababab",
-				"link_color": "#eee",
-				"link_hover_color": "#eee",
-				"nav_current_color": "#eee",
-				"firefox_alias": "grayscale",
-				"button_color": "#4d4d4d"
-			}
 		}
 	},
 
@@ -67,21 +34,11 @@
     "Typography": {
       "icon":"type",
       "settings": {
-				"fixed_header": {
-					"label": "Fixed Header At Top",
-					"type": "boolean",
-					"value": true
-				},
         "font": {
           "label":"Typeface",
           "type":"select",
           "options": [
-            { "label": "Default", "value": "default" },
-            { "label": "Classic", "value": "classic" },
-            { "label": "Fashion", "value": "fashion" },
-            { "label": "Sweet", "value": "sweet" },
-            { "label": "Abril and Raleway", "value": "abril-raleway" },
-            { "label": "Tabloid", "value": "tabloid" }
+            { "label": "Abril and Raleway", "value": "abril-raleway" }
           ],
           "value": "default",
           "reload_preview": true
