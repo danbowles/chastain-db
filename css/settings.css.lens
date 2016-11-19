@@ -430,6 +430,11 @@ span.img-data {
     width: 60%;
     display: inline-block
 }
+
+span.img-data time {
+  display: block;
+}
+
 span.img-pag {
     display: block;
     position: absolute;
